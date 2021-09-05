@@ -1,0 +1,48 @@
+body{
+    width: 100%;
+}
+.navfloat{
+    margin-top: 75px;
+}
+
+
+.about{
+    text-align: center;
+}
+.about h1{
+    color: rgb(21, 88, 231);
+    font-weight: bold;
+}
+.about h2{
+    color: black;
+    font-weight: bold;
+    
+}
+nav{
+    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.aboutme{
+    height: 300px;
+    width: 500px;
+    border: 10px solid rgb(21, 88, 231);
+    border-radius: 30px;
+    padding: 20px;
+    margin: 100px 100px;
+
+}
+.aboutimg{
+    height: 600px;
+    overflow: hidden;
+}
+
+
+
+

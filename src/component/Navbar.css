@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ h2{
+     padding-left: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+nav{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 6px;
+    flex-direction: row;
+    align-items: center;
+    background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee); 
+    z-index: 100;
+
+}
+.navbar{
+    margin-right: 50px;
+}
+
+
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+} 
+ul li a:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.banner img{
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+  
+}
+
+
+

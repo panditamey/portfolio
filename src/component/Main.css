@@ -1,0 +1,47 @@
+
+/* .banner img{
+    width: 100%;
+    height: 90vh;
+    margin-top: 75px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    z-index: -1;
+} */
+.mainbody{
+    display: flex;
+    justify-content: space-between;
+}
+.mainntext{
+    height: 400px;
+    width: 400px;
+    margin: 100px 200px;
+    /* border: 2px solid black; */
+}
+.mainntext span{
+    font-size: 40px;
+    color: black;
+    
+}
+.mainntext .mainbtn{
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    outline: none;
+    color: white;
+    background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee); 
+}
+
+.mainntext h2{
+    color: black;
+    margin: 20px;
+}
+
+
+.banner {
+
+    height: 100px;
+    width: 500px;
+}
