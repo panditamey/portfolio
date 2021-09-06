@@ -12,7 +12,7 @@ export default function Main() {
                 <button className="mainbtn">HIRE ME</button> <button className="mainbtn">Get CV</button>
             </div>
             <div className="banner">
-                <img src= "https://github.com/panditamey/portfolio/blob/main/public/img/pp.png" alt="" />
+                <img src= "https://github.com/panditamey/portfolio/blob/main/public/img/pp.png?raw=true" alt="" />
             </div>
         </div>
     )
